@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sorb-manager-controller:war">
+    <output-path>$PROJECT_DIR$/sorb-manager-controller/target</output-path>
+    <root id="archive" name="sorb-manager-controller.war">
+      <element id="artifact" artifact-name="sorb-manager-controller:war exploded" />
+    </root>
+  </artifact>
+</component>
