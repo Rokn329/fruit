@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+">
+    <!-- 开启包扫描 -->
+    <context:component-scan base-package="com.fruit.sorb"/>
+
+    <!--引入外部配置文件-->
+    <context:property-placeholder location="classpath:*.properties"/>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource">
+        <property name="driverClass" value="${mysql.driver}"/>
+        <property name="jdbcUrl" value="${mysql.url}"/>
+        <property name="username" value="${mysql.user}"/>
+        <property name="password" value="${mysql.password}"/>
+        <!--检查数据库连接池中空闲连接的间隔时间，如果要取消则设置为0-->
+        <property name="idleConnectionTestPeriodInMinutes" value="60"/>
+        <!--连接池中未使用的链接最大存活时间，如果要永远存活则设置为0-->
+        <property name="idleMaxAgeInMinutes" value="30"/>
+        <!--每个分区最大的连接数-->
+        <property name="maxConnectionsPerPartition" value="150"/>
+        <!--每个分区最小的连接数-->
+        <property name="minConnectionsPerPartition" value="5"/>
+    </bean>
+</beans>
