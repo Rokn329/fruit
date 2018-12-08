@@ -7,6 +7,18 @@
           <element id="module-output" name="sorb-manager-controller" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="sorb-manager-service-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sorb-manager-service" />
+          </element>
+          <element id="archive" name="sorb-manager-mapper-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sorb-manager-mapper" />
+          </element>
+          <element id="archive" name="sorb-manager-pojo-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sorb-manager-pojo" />
+          </element>
+          <element id="archive" name="sorb-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="sorb-common" />
+          </element>
           <element id="library" level="project" name="Maven: org.springframework:spring-context:4.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.3.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
