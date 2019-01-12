@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <!--引入数据源-->
+        <property name="dataSource" ref="dataSource"/>
+        <!--引入核心配置文件-->
+        <property name="configLocation" value="classpath:mybaties/mybatis-config.xml"/>
+        <!--别名包-->
+        <property name="typeAliasesPackage" value="com.fruit.sorb.manager.pojo"/>
+        <!--引入映射文件-->
+        <property name="mapperLocations" value="classpath:mybaties/mappers/*.xml"/>
+    </bean>
+
+    <!--定义Mapper接口扫描器，目的为其创建代理对象-->
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="basePackage" value="com.fruit.sorb.manager.mapper"/>
+    </bean>
+</beans>
