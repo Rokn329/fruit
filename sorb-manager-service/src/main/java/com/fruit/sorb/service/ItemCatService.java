@@ -1,7 +1,11 @@
 package com.fruit.sorb.service;
 
+import com.fruit.sorb.manager.mapper.ItemCatMapper;
 import com.fruit.sorb.manager.pojo.ItemCat;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @ClassName: ItemCatService
@@ -12,6 +16,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class ItemCatService extends BaseService<ItemCat> {
 
+    @Autowired
+    private ItemCatMapper itemCatMapper;
 
+    public List<ItemCat> findItemCatList(Long parentId) {
+        ItemCat itemCat = new ItemCat();
+        itemCat.setParentId(parentId);
+        return itemCatMapper.select(itemCat);
+    }
 
 }

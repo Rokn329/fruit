@@ -75,4 +75,19 @@ public class ItemCat extends BasePojo {
     public void setParent(Boolean parent) {
         isParent = parent;
     }
+
+    /*
+     * 为了满足EasyUI的树形结构，添加getXxx()方法
+     */
+    public String getText() {
+        return this.name;
+    }
+
+    /*
+     * 如果是上级菜单，则应该是closed
+     * 如果不是上级菜单，则open
+     */
+    public String getState() {
+        return isParent ? "closed" : "open";
+    }
 }

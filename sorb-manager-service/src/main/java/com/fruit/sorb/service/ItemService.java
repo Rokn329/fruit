@@ -1,13 +1,16 @@
 package com.fruit.sorb.service;
 
+import com.fruit.sorb.manager.mapper.ItemDescMapper;
 import com.fruit.sorb.manager.mapper.ItemMapper;
 import com.fruit.sorb.manager.pojo.Item;
+import com.fruit.sorb.manager.pojo.ItemDesc;
 import com.fruit.sorb.vo.EasyUIResult;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -21,6 +24,9 @@ public class ItemService {
 
     @Autowired
     private ItemMapper itemMapper;
+
+    @Autowired
+    private ItemDescMapper itemDescMapper;
 
     /**
      * @title: findItemList
@@ -63,5 +69,48 @@ public class ItemService {
      */
     public String findItemName(Long itemCatId) {
         return itemMapper.findItemName(itemCatId);
+    }
+
+    /**
+     * 商品信息保存操作
+     * @param item
+     * @param desc
+     */
+    public void saveItem(Item item, String desc) {
+        item.setCreated(new Date());
+        item.setUpdated(item.getCreated());
+        itemMapper.insertSelective(item);
+
+        ItemDesc itemDesc = new ItemDesc();
+        itemDesc.setItemId(item.getId());
+        itemDesc.setItemDesc(desc);
+        itemDesc.setCreated(item.getCreated());
+        itemDesc.setUpdated(item.getUpdated());
+        itemDescMapper.insert(itemDesc);
+    }
+
+    /**
+     * 商品信息更新操作
+     * @param item
+     */
+    public void updateItem(Item item) {
+        item.setUpdated(item.getCreated());
+        itemMapper.updateByPrimaryKeySelective(item);
+    }
+
+    /**
+     * 商品删除
+     * @param ids
+     */
+    public void deleteItem(Long[] ids) {
+        itemMapper.deleteByIDS(ids);
+    }
+
+    /**
+     * 查询商品描述信息
+     * @param itemId
+     */
+    public ItemDesc findItemDesc(Long itemId) {
+        return itemDescMapper.selectByPrimaryKey(itemId);
     }
 }
