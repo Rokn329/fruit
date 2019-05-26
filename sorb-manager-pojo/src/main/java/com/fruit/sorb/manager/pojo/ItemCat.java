@@ -1,5 +1,6 @@
 package com.fruit.sorb.manager.pojo;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fruit.sorb.common.po.BasePojo;
 
 import javax.persistence.GeneratedValue;
@@ -14,6 +15,7 @@ import javax.persistence.Table;
  * @Date: 2019/1/12 22:49
  */
 @Table(name = "tb_item_cat")
+@JsonIgnoreProperties(ignoreUnknown = true) // 遇到不认识的属性忽略
 public class ItemCat extends BasePojo {
 
     @Id

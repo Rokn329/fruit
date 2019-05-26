@@ -93,9 +93,16 @@ public class ItemService {
      * 商品信息更新操作
      * @param item
      */
-    public void updateItem(Item item) {
+    public void updateItem(Item item, String desc) {
+        // 更新商品信息
         item.setUpdated(item.getCreated());
         itemMapper.updateByPrimaryKeySelective(item);
+        // 更新商品描述信息
+        ItemDesc itemDesc = new ItemDesc();
+        itemDesc.setItemId(item.getId());
+        itemDesc.setItemDesc(desc);
+        itemDesc.setUpdated(item.getUpdated());
+        itemDescMapper.updateByPrimaryKeySelective(itemDesc);
     }
 
     /**

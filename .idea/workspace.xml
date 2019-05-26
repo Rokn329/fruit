@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d075bac-2c1a-4cd4-aa75-5b46c0e3d52c" name="Default Changelist" comment="add log4j and mysql-jdbc properties info">
+    <list default="true" id="3d075bac-2c1a-4cd4-aa75-5b46c0e3d52c" name="Default Changelist" comment="new add properties">
+      <change afterPath="$PROJECT_DIR$/../DemoProject/DemoProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-redis.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/sorb_manager_controller_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/sorb_manager_controller_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-common/sorb-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-common/sorb-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/sorb-manager-controller.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/sorb-manager-controller.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-mapper/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-mapper/sorb-manager-mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-mapper/sorb-manager-mapper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-pojo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-pojo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-pojo/sorb-manager-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-pojo/sorb-manager-pojo.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/manager/pojo/ItemCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/manager/pojo/ItemCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-service/sorb-manager-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-service/sorb-manager-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemCatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemCatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-manager/sorb-manager.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-manager/sorb-manager.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-parent/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sorb-parent/sorb-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sorb-parent/sorb-parent.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/sorb-parent/target/" />
     <ignored path="$PROJECT_DIR$/sorb-common/target/" />
@@ -22,57 +51,125 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/FruitWorkspace$TestJedis_test.ic" NAME="TestJedis.test Coverage Results" MODIFIED="1556200265601" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.fruit.sorb.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2134409662">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="49" />
+          <entry key="project.open.time.100" value="1" />
+          <entry key="project.open.time.101" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.51" value="1" />
-          <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.52" value="2" />
+          <entry key="project.open.time.53" value="3" />
+          <entry key="project.open.time.55" value="3" />
+          <entry key="project.open.time.56" value="3" />
+          <entry key="project.open.time.57" value="1" />
+          <entry key="project.open.time.58" value="1" />
+          <entry key="project.open.time.59" value="6" />
           <entry key="project.open.time.60" value="2" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.63" value="1" />
+          <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.65" value="1" />
+          <entry key="project.open.time.66" value="1" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.open.time.68" value="1" />
+          <entry key="project.open.time.69" value="2" />
           <entry key="project.open.time.70" value="1" />
-          <entry key="project.open.time.72" value="1" />
-          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.72" value="4" />
+          <entry key="project.open.time.73" value="3" />
+          <entry key="project.open.time.74" value="1" />
+          <entry key="project.open.time.76" value="2" />
           <entry key="project.open.time.79" value="1" />
+          <entry key="project.open.time.81" value="2" />
+          <entry key="project.open.time.83" value="1" />
+          <entry key="project.open.time.84" value="1" />
+          <entry key="project.open.time.86" value="1" />
+          <entry key="project.open.time.88" value="2" />
           <entry key="project.open.time.99" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="58" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="0-SNAPSHOT" value="1" />
-          <entry key="class" value="2" />
-          <entry key="java" value="3" />
-          <entry key="jsp" value="1" />
-          <entry key="properties" value="2" />
-          <entry key="xml" value="12" />
+          <entry key="asp" value="1" />
+          <entry key="class" value="32" />
+          <entry key="css" value="3" />
+          <entry key="gitignore" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="81" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="14" />
+          <entry key="png" value="3" />
+          <entry key="properties" value="16" />
+          <entry key="xml" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="3" />
-          <entry key="JSP" value="1" />
-          <entry key="Properties" value="2" />
+          <entry key="ASP" value="1" />
+          <entry key="CLASS" value="32" />
+          <entry key="CSS" value="3" />
+          <entry key="Git file" value="1" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="3" />
+          <entry key="JAVA" value="81" />
+          <entry key="JSP" value="14" />
+          <entry key="JavaScript" value="5" />
+          <entry key="Properties" value="16" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="12" />
+          <entry key="XML" value="51" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="118" />
-          <entry key="properties" value="167" />
-          <entry key="txt" value="228" />
-          <entry key="xml" value="1655" />
+          <entry key="ft" value="130" />
+          <entry key="java" value="15920" />
+          <entry key="jsp" value="1" />
+          <entry key="properties" value="612" />
+          <entry key="txt" value="301" />
+          <entry key="xml" value="3270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="118" />
-          <entry key="PLAIN_TEXT" value="228" />
-          <entry key="Properties" value="167" />
-          <entry key="XML" value="1655" />
+          <entry key="JAVA" value="15920" />
+          <entry key="JSP" value="1" />
+          <entry key="PLAIN_TEXT" value="301" />
+          <entry key="Properties" value="612" />
+          <entry key="VTL" value="130" />
+          <entry key="XML" value="3270" />
         </counts>
       </usages-collector>
     </session>
@@ -80,10 +177,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/hello/HelloController.java">
+        <entry file="file://$PROJECT_DIR$/sorb-manager/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="299">
+              <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1909">
+              <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -91,17 +197,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorb-parent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1748">
-              <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+            <state relative-caret-position="6141">
+              <caret line="267" column="10" selection-start-line="267" selection-start-column="10" selection-end-line="267" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-sentinel.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/RedisSentinelService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state>
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,38 +227,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
-              <folding>
-                <element signature="e#848#862#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-tx.xml">
+        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/redis-sentinel.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+            <state relative-caret-position="253">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mysql-jdbc.properties">
+        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/redis.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="184">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/WEB-INF/web.xml">
+        <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mybatis-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+            <state relative-caret-position="437">
+              <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -148,17 +263,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/springmvc-config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sorb-common/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state>
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -168,15 +274,24 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
+        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>commons-io.version</find>
+      <find>findI</find>
+      <find>商品</find>
+      <find>selectItemCat</find>
+      <find>application</find>
+      <find>redis</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -187,21 +302,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sorb-common/pom.xml" />
-        <option value="$PROJECT_DIR$/sorb-manager/pom.xml" />
-        <option value="$PROJECT_DIR$/sorb-manager-pojo/pom.xml" />
-        <option value="$PROJECT_DIR$/sorb-manager-mapper/pom.xml" />
-        <option value="$PROJECT_DIR$/sorb-manager-service/pom.xml" />
-        <option value="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/Hello.java" />
-        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/hello/HelloController.java" />
-        <option value="$PROJECT_DIR$/sorb-parent/pom.xml" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/pom.xml" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/src/resources/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/src/resources/spring/springmvc-config.xml" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/src/resources/spring/applicationContext-tx.xml" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/src/resources/mysql-jdbc.properties" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/App.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/spring/extend/ExtendedPropertyPlaceholderConfigurer.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manage/mapper/base/mapper/SysMapper.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manage/mapper/base/mapper/SysMapperProvider.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mappers/ContentMapper.xml" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/common/po/BasePojo.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/manager/pojo/Item.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manage/mapper/ItemMapper.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/easyui-tabs.jsp" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manager/mapper/ItemMapper.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mappers/ItemMapper.xml" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/mapper/SysMapper.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/CommonFindCountService.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/mapper/SysMapperProvider.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/CommonFindCountController.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manager/mapper/ItemCatMapper.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/BaseService.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/vo/EasyUIResult.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/vo/SysResult.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manager/mapper/ItemDescMapper.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/manager/pojo/ItemDesc.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/Function.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/ItemCatController.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/vo/PicUploadResult.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/FileUploadController.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mysql-jdbc.properties" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/test/java/com/fruit/sorb/Redis.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/test/java/com/fruit/sorb/TestJedis.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-redis.xml" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/jedis.properties" />
+        <option value="$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemCatService.java" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/RedisService.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mysql-jdbc22.properties" />
+        <option value="$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/manager/pojo/ItemCat.java" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/sorb-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-sentinel.xml" />
+        <option value="$PROJECT_DIR$/sorb-manager-controller/src/main/resources/redis-sentinel.properties" />
+        <option value="$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/RedisSentinelService.java" />
       </list>
     </option>
   </component>
@@ -229,38 +380,29 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-controller Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sorb-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-controller Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sorb-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sorb-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-mapper" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sorb-manager" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sorb-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="sorb-manager-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="sorb-parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
@@ -268,10 +410,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="406" />
+    <option name="x" value="369" />
+    <option name="y" value="59" />
+    <option name="width" value="901" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -281,57 +423,54 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="FruitWorkspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sorb-manager-controller" type="462c0819:PsiDirectoryNode" />
+              <item name="DevProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FruitWorkspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sorb-manager-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FruitWorkspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sorb-manager-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FruitWorkspace" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sorb-manager-controller" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="DevProject" type="462c0819:PsiDirectoryNode" />
+              <item name="FruitWorkspace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544277453987" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558841845307" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/sorb-manager-mapper/src/test/java/com/fruit/sorb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.fruit.sorb" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\resources" />
+      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main\resources" />
+      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main\resources\spring" />
+      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main\webapp\js" />
+      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main\webapp" />
+      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main\webapp\WEB-INF\views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevProject\FruitWorkspace\sorb-manager-controller\src\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -346,7 +485,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Maven.sorb">
+  <component name="RunManager" selected="Cucumber java.All Features in: FruitWorkspace">
     <configuration name="HelloController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fruit.sorb.hello.HelloController" />
       <module name="sorb-manager-controller" />
@@ -356,6 +495,39 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All Features in: FruitWorkspace" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="3" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="DemoPro" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm3SMFormatter" />
+      <option name="SUGGESTED_NAME" value="All Features in: FruitWorkspace" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestJedis.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sorb-manager-controller" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fruit.sorb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fruit.sorb" />
+      <option name="MAIN_CLASS_NAME" value="com.fruit.sorb.TestJedis" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -496,9 +668,14 @@
     <list>
       <item itemvalue="Maven.sorb" />
       <item itemvalue="Application.HelloController" />
+      <item itemvalue="JUnit.TestJedis.test" />
+      <item itemvalue="Cucumber java.All Features in: FruitWorkspace" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber java.All Features in: FruitWorkspace" />
+        <item itemvalue="JUnit.TestJedis.test" />
+        <item itemvalue="Application.HelloController" />
         <item itemvalue="Application.HelloController" />
       </list>
     </recent_temporary>
@@ -523,7 +700,54 @@
       <workItem from="1543137074708" duration="904000" />
       <workItem from="1543762062790" duration="865000" />
       <workItem from="1543849352285" duration="591000" />
-      <workItem from="1544255685050" duration="3856000" />
+      <workItem from="1544255685050" duration="6896000" />
+      <workItem from="1544454011414" duration="509000" />
+      <workItem from="1544454556740" duration="1053000" />
+      <workItem from="1545228326129" duration="3127000" />
+      <workItem from="1545315545439" duration="4684000" />
+      <workItem from="1545921828984" duration="3539000" />
+      <workItem from="1546094800604" duration="598000" />
+      <workItem from="1546140798210" duration="3379000" />
+      <workItem from="1546307384535" duration="1408000" />
+      <workItem from="1546327785864" duration="7947000" />
+      <workItem from="1546582460387" duration="141000" />
+      <workItem from="1546612364383" duration="3318000" />
+      <workItem from="1546697960159" duration="4286000" />
+      <workItem from="1546777325923" duration="5798000" />
+      <workItem from="1546955306628" duration="6348000" />
+      <workItem from="1547130059641" duration="3264000" />
+      <workItem from="1547300300566" duration="7919000" />
+      <workItem from="1547388073452" duration="2342000" />
+      <workItem from="1548249839164" duration="1629000" />
+      <workItem from="1548588724656" duration="4758000" />
+      <workItem from="1549804370753" duration="5405000" />
+      <workItem from="1549981752294" duration="2574000" />
+      <workItem from="1550152434968" duration="4567000" />
+      <workItem from="1550409826116" duration="5089000" />
+      <workItem from="1550749501944" duration="9262000" />
+      <workItem from="1550997052643" duration="7195000" />
+      <workItem from="1551185942252" duration="959000" />
+      <workItem from="1551593938338" duration="600000" />
+      <workItem from="1553093052517" duration="2219000" />
+      <workItem from="1553313095022" duration="604000" />
+      <workItem from="1553431441689" duration="1349000" />
+      <workItem from="1554124388630" duration="14000" />
+      <workItem from="1554303042891" duration="2158000" />
+      <workItem from="1554818708944" duration="784000" />
+      <workItem from="1554905089913" duration="263000" />
+      <workItem from="1554905394902" duration="780000" />
+      <workItem from="1555945052277" duration="896000" />
+      <workItem from="1556198235028" duration="4957000" />
+      <workItem from="1556548214180" duration="2969000" />
+      <workItem from="1556979178270" duration="3782000" />
+      <workItem from="1557063387008" duration="5485000" />
+      <workItem from="1557236308271" duration="6510000" />
+      <workItem from="1557411116044" duration="4535000" />
+      <workItem from="1557754481683" duration="1553000" />
+      <workItem from="1557921086688" duration="3402000" />
+      <workItem from="1558444443616" duration="5470000" />
+      <workItem from="1558527247131" duration="2730000" />
+      <workItem from="1558841546357" duration="256000" />
     </task>
     <task id="LOCAL-00001" summary="First commint">
       <created>1542431751936</created>
@@ -588,11 +812,77 @@
       <option name="project" value="LOCAL" />
       <updated>1544258524904</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="modify config file">
+      <created>1544277868023</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544277868023</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new add properties">
+      <created>1545318096297</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1545318096297</updated>
+    </task>
+    <task id="LOCAL-00012" summary="new add properties">
+      <created>1545321627298</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1545321627298</updated>
+    </task>
+    <task id="LOCAL-00013" summary="新增映射配置文件">
+      <created>1545924766725</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1545924766725</updated>
+    </task>
+    <task id="LOCAL-00014" summary="new add data">
+      <created>1547307714885</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1547307714885</updated>
+    </task>
+    <task id="LOCAL-00015" summary="new add properties">
+      <created>1550749621884</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1550749621884</updated>
+    </task>
+    <task id="LOCAL-00016" summary="new add properties">
+      <created>1550751309799</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1550751309799</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestJedis_test - 2019.04.25 at 21h 51m 16s.xml">
+      <configuration name="TestJedis.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_test - 2019.04.25 at 21h 52m 23s.xml">
+      <configuration name="TestJedis.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_test - 2019.04.25 at 21h 54m 30s.xml">
+      <configuration name="TestJedis.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_test - 2019.04.25 at 21h 56m 09s.xml">
+      <configuration name="TestJedis.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJedis_test - 2019.04.25 at 22h 42m 32s.xml">
+      <configuration name="TestJedis.test" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30375000" />
+    <option name="totallyTimeSpent" value="185829000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -606,39 +896,85 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.5499244" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.30181542" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.3298292" />
+      <window_info id="JRebel" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32851985" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.40491804" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.32323232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.13934426" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53114754" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3295082" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.2967213" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.30327868" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.20491803" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.08417509" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3295082" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.30163935" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" weight="0.31164902" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.36762482" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="10" sideWeight="0.90983605" visible="true" weight="0.0113464445" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.09016393" side_tool="true" visible="true" weight="0.026475038" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49836066" visible="true" weight="0.18683812" />
+      <window_info id="Structure" order="1" sideWeight="0.50163937" side_tool="true" weight="0.30181542" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" weight="0.3298292" />
+      <window_info id="JRebel" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.32323232" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4442623" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.46065575" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50075644" side_tool="true" weight="0.30327868" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.20491803" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.08417509" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.30163935" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="JRebel Console" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="16" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.36913767" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info anchor="right" id="JRebel Setup Guide" order="10" sideWeight="0.90983605" weight="0.0075642965" />
+      <window_info anchor="right" id="Coverage" order="11" sideWeight="0.09016393" side_tool="true" visible="true" weight="0.026475038" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -681,204 +1017,243 @@
     <MESSAGE value="modify properties params name" />
     <MESSAGE value="add config file" />
     <MESSAGE value="modify config file" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify config file" />
+    <MESSAGE value="新增映射配置文件" />
+    <MESSAGE value="new add data" />
+    <MESSAGE value="new add properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="new add properties" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/mapper/SysMapperProvider.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/mapper/SysMapperProvider.java</url>
+          <line>58</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/FileUploadController.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/App.java" />
-    <entry file="uml://MAVEN/com.fruit.sorb:sorb-manager-mapper:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.fruit.sorb:sorb-manager-mapper:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">com.fruit.sorb:sorb-manager-mapper:1.0-SNAPSHOT</node>
-            <node x="" y="">com.fruit.sorb:sorb-manager-pojo:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">com.fruit.sorb:sorb-manager-pojo:jar:1.0-SNAPSHOT/com.fruit.sorb:sorb-common:jar:1.0-SNAPSHOT</node>
-            <node x="" y="">junit:junit:jar:3.8.1</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.1.3.RELEASE/org.springframework:spring-aop:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.1.3.RELEASE/org.springframework:spring-aop:jar:4.1.3.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.1.3.RELEASE/org.springframework:spring-core:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.1.3.RELEASE/org.springframework:spring-core:jar:4.1.3.RELEASE/commons-logging:commons-logging:jar:1.2</node>
-            <node x="" y="">org.springframework:spring-context:jar:4.1.3.RELEASE/org.springframework:spring-expression:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-beans:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:4.1.3.RELEASE/org.springframework:spring-web:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-jdbc:jar:4.1.3.RELEASE/org.springframework:spring-tx:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-aspects:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework:spring-aspects:jar:4.1.3.RELEASE/org.aspectj:aspectjweaver:jar:1.8.4</node>
-            <node x="" y="">org.mybatis:mybatis:jar:3.2.8</node>
-            <node x="" y="">org.mybatis:mybatis-spring:jar:1.2.2</node>
-            <node x="" y="">com.github.miemiedev:mybatis-paginator:jar:1.2.15</node>
-            <node x="" y="">com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.mybatis:mybatis:jar:3.1.0</node>
-            <node x="" y="">com.github.miemiedev:mybatis-paginator:jar:1.2.15/org.slf4j:slf4j-api:jar:1.7.2</node>
-            <node x="" y="">mysql:mysql-connector-java:jar:5.1.32</node>
-            <node x="" y="">com.github.abel533:mapper:jar:2.3.2</node>
-            <node x="" y="">com.github.abel533:mapper:jar:2.3.2/javax.persistence:persistence-api:jar:1.0</node>
-            <node x="" y="">com.github.abel533:mapper:jar:2.3.2/commons-beanutils:commons-beanutils:jar:1.9.2</node>
-            <node x="" y="">com.github.abel533:mapper:jar:2.3.2/commons-beanutils:commons-beanutils:jar:1.9.2/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="" y="">com.github.abel533:mapper:jar:2.3.2/commons-beanutils:commons-beanutils:jar:1.9.2/commons-collections:commons-collections:jar:3.2.1</node>
-            <node x="" y="">com.github.pagehelper:pagehelper:jar:3.4.2</node>
-            <node x="" y="">com.github.jsqlparser:jsqlparser:jar:0.9.1</node>
-            <node x="" y="">com.jolbox:bonecp-spring:jar:0.8.0.RELEASE</node>
-            <node x="" y="">com.jolbox:bonecp-spring:jar:0.8.0.RELEASE/com.jolbox:bonecp:jar:0.8.0.RELEASE</node>
-            <node x="" y="">com.jolbox:bonecp-spring:jar:0.8.0.RELEASE/com.jolbox:bonecp:jar:0.8.0.RELEASE/com.google.guava:guava:jar:15.0</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.4</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.4/org.slf4j:slf4j-api:jar:1.6.4</node>
-            <node x="" y="">org.slf4j:slf4j-log4j12:jar:1.6.4/log4j:log4j:jar:1.2.16</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.4.2</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.4.0</node>
-            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.4.2/com.fasterxml.jackson.core:jackson-core:jar:2.4.2</node>
-            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5</node>
-            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5/org.apache.httpcomponents:httpcore:jar:4.3.2</node>
-            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5/commons-logging:commons-logging:jar:1.1.3</node>
-            <node x="" y="">org.apache.httpcomponents:httpclient:jar:4.3.5/commons-codec:commons-codec:jar:1.6</node>
-            <node x="" y="">org.apache.httpcomponents:httpmime:jar:4.3.1</node>
-            <node x="" y="">org.apache.httpcomponents:httpmime:jar:4.3.1/org.apache.httpcomponents:httpclient:jar:4.3.1</node>
-            <node x="" y="">com.rabbitmq:amqp-client:jar:3.5.1</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework.amqp:spring-amqp:jar:1.4.0.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework.amqp:spring-amqp:jar:1.4.0.RELEASE/org.springframework:spring-core:jar:4.1.2.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/com.rabbitmq:amqp-client:jar:3.4.1</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework:spring-messaging:jar:4.1.2.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework:spring-messaging:jar:4.1.2.RELEASE/org.springframework:spring-beans:jar:4.1.2.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework:spring-messaging:jar:4.1.2.RELEASE/org.springframework:spring-context:jar:4.1.2.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework:spring-messaging:jar:4.1.2.RELEASE/org.springframework:spring-core:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/log4j:log4j:jar:1.2.17</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework.retry:spring-retry:jar:1.1.2.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework.retry:spring-retry:jar:1.1.2.RELEASE/org.springframework:spring-core:jar:4.0.4.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework:spring-context:jar:4.1.3.RELEASE</node>
-            <node x="" y="">org.springframework.amqp:spring-rabbit:jar:1.4.0.RELEASE/org.springframework:spring-tx:jar:4.1.2.RELEASE</node>
-            <node x="" y="">jstl:jstl:jar:1.2</node>
-            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
-            <node x="" y="">javax.servlet:jsp-api:jar:2.0</node>
-            <node x="" y="">javax.servlet:jsp-api:jar:2.0/javax.servlet:servlet-api:jar:2.4</node>
-            <node x="" y="">joda-time:joda-time:jar:2.5</node>
-            <node x="" y="">org.apache.commons:commons-lang3:jar:3.3.2</node>
-            <node x="" y="">org.apache.commons:commons-io:jar:2.4</node>
-            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1</node>
-            <node x="" y="">commons-fileupload:commons-fileupload:jar:1.3.1/commons-io:commons-io:jar:2.2</node>
-            <node x="" y="">redis.clients:jedis:jar:2.6.0</node>
-            <node x="" y="">redis.clients:jedis:jar:2.6.0/org.apache.commons:commons-pool2:jar:2.0</node>
-            <node x="" y="">commons-codec:commons-codec:jar:1.9</node>
-            <node x="" y="">org.hibernate:hibernate-validator:jar:5.1.3.Final</node>
-            <node x="" y="">org.hibernate:hibernate-validator:jar:5.1.3.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.hibernate:hibernate-validator:jar:5.1.3.Final/org.jboss.logging:jboss-logging:jar:3.1.3.GA</node>
-            <node x="" y="">org.hibernate:hibernate-validator:jar:5.1.3.Final/com.fasterxml:classmate:jar:1.0.0</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.14596808969383354" x="2309.0" y="690.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="2760">
+          <caret line="120" column="79" selection-start-line="120" selection-start-column="79" selection-end-line="120" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-mapper/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/FileUploadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1725">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/filter/CharacterEncodingFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
           <folding>
-            <element signature="e#69#70#0" expanded="true" />
-            <element signature="e#118#119#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-parent/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="76" column="48" selection-start-line="76" selection-start-column="48" selection-end-line="76" selection-end-column="48" />
+        <state relative-caret-position="1978">
+          <caret line="99" column="31" selection-start-line="99" selection-start-column="31" selection-end-line="99" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-tx.xml">
+    <entry file="file://$PROJECT_DIR$/sorb-manager-mapper/src/main/java/com/fruit/sorb/manager/mapper/ItemCatMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+        <state relative-caret-position="161">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/springmvc-config.xml">
+    <entry file="file://$PROJECT_DIR$/../DemoPro.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/redis/clients/jedis/2.6.0/jedis-2.6.0.jar!/redis/clients/jedis/ShardedJedisPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/multipart/commons/CommonsMultipartFile.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1242">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/WEB-INF/views/item-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE.jar!/org/springframework/context/ApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/spring/extend/ExtendedPropertyPlaceholderConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/test/java/com/fruit/sorb/TestJedis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="53" column="76" selection-start-line="53" selection-start-column="76" selection-end-line="53" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42665">
+          <caret line="1926" selection-start-line="1926" selection-end-line="1926" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/vo/PicUploadResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorb-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-redis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="483">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/mapper/SysMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        <state relative-caret-position="131">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/mapper/SysMapperProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
           <folding>
-            <element signature="e#848#862#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#700#701#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-context/4.1.3.RELEASE/spring-context-4.1.3.RELEASE.jar!/org/springframework/context/support/AbstractRefreshableApplicationContext.class">
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="87" column="40" lean-forward="true" selection-start-line="87" selection-start-column="40" selection-end-line="87" selection-end-column="40" />
+        <state relative-caret-position="82">
+          <caret line="139" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="403" selection-start-line="403" selection-end-line="403" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-webmvc/4.1.3.RELEASE/spring-webmvc-4.1.3.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="477" selection-start-line="477" selection-end-line="477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/context/request/AbstractRequestAttributes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="591" selection-start-line="591" selection-end-line="591" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mysql-jdbc22.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
         </state>
       </provider>
     </entry>
@@ -889,24 +1264,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/webapp/WEB-INF/web.xml">
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-tx.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
+        <state relative-caret-position="368">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/hello/HelloController.java">
+    <entry file="file://$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/ItemCatService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="621">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/java/com/fruit/sorb/controller/ItemCatController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-pojo/src/main/java/com/fruit/sorb/manager/pojo/ItemCat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-service/src/main/java/com/fruit/sorb/service/CommonFindCountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/common/po/BasePojo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/vo/SysResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2116">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/workJarSource/org/springframework/data/spring-data-redis/1.4.1.RELEASE/spring-data-redis-1.4.1.RELEASE.jar!/org/springframework/data/redis/connection/RedisSentinelConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1909">
+          <caret line="83" column="27" selection-start-line="83" selection-start-column="27" selection-end-line="83" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6141">
+          <caret line="267" column="10" selection-start-line="267" selection-start-column="10" selection-end-line="267" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext-sentinel.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/redis-sentinel.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/redis.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/mybaties/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-manager-controller/src/main/resources/spring/springmvc-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sorb-common/src/main/java/com/fruit/sorb/service/RedisSentinelService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -921,7 +1425,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -929,7 +1432,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web (sorb-manager-controller)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -964,12 +1467,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>sorb-common</last-edited>
+          <last-edited>Web|sorb-manager-controller</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

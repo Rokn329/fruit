@@ -8,7 +8,7 @@
 
     <!--引入外部配置文件-->
 <!--
-    <context:property-placeholder location="classpath:mysql-jdbc.properties"/>
+    <context:property-placeholder location="classpath:mysql-jdbc22.properties"/>
 -->
 
     <!--使用spring自带的占位符替换功能,可以实现注解方式获取属性文件中的配置值-->
@@ -21,6 +21,8 @@
         <property name="locations">
             <list>
                 <value>classpath:mysql-jdbc.properties</value>
+                <value>classpath:redis.properties</value>
+                <value>classpath:redis-sentinel.properties</value>
             </list>
         </property>
     </bean>

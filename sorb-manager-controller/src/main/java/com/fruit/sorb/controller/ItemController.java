@@ -95,9 +95,9 @@ public class ItemController {
      */
     @RequestMapping("/update")
     @ResponseBody
-    public SysResult updateItem(Item item) {
+    public SysResult updateItem(Item item, String desc) {
         try {
-            itemService.updateItem(item);
+            itemService.updateItem(item, desc);
             return SysResult.build(200, "商品信息更新成功");
         } catch (Exception e) {
             e.printStackTrace();
