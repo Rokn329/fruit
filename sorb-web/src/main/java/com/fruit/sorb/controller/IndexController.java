@@ -11,6 +11,8 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class IndexController {
 
+    public void index() {
 
+    }
 
 }
