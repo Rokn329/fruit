@@ -8,6 +8,7 @@ import com.fruit.sorb.manager.pojo.ItemCat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
+import redis.clients.jedis.JedisCluster;
 
 import java.util.List;
 
@@ -26,6 +27,11 @@ public class ItemCatService extends BaseService<ItemCat> {
     @Autowired
     private RedisService redisService;
 
+    @Autowired
+    private RedisSentinelService redisSentinelService;
+    @Autowired
+    private JedisCluster jedisCluster;
+
     private static final ObjectMapper MAPPER = new ObjectMapper();
 
     public List<ItemCat> findItemCatList(Long parentId) {
@@ -34,13 +40,17 @@ public class ItemCatService extends BaseService<ItemCat> {
 
         // 判断redis是否有数据
         String ITEM_CAT_KEY = "ITEM_KEY_" + parentId;
-        String jsonData = redisService.get(ITEM_CAT_KEY);
+//        String jsonData = redisService.get(ITEM_CAT_KEY); // 分片
+//        String jsonData = redisSentinelService.get(ITEM_CAT_KEY); // 哨兵
+        String jsonData = jedisCluster.get(ITEM_CAT_KEY); // 集群
         if (StringUtils.isEmpty(jsonData)) { // 参数为空，则查询数据库数据
             List<ItemCat> itemCatList = itemCatMapper.select(itemCat);
             if (itemCatList != null && itemCatList.size() > 0) {
                 try {
                     String jsonStr = MAPPER.writeValueAsString(itemCatList);
-                    redisService.set(ITEM_CAT_KEY, jsonStr);
+//                    redisService.set(ITEM_CAT_KEY, jsonStr);
+//                    redisSentinelService.set(ITEM_CAT_KEY, jsonStr);
+                    jedisCluster.set(ITEM_CAT_KEY, jsonStr);
                 } catch (JsonProcessingException e) {
                     e.printStackTrace();
                 }
