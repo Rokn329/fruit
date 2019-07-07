@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+            http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+">
+
+    <!--引入外部配置文件-->
+<!--
+    <context:property-placeholder location="classpath:mysql-jdbc22.properties"/>
+-->
+
+    <!--使用spring自带的占位符替换功能,可以实现注解方式获取属性文件中的配置值-->
+    <bean class="com.fruit.sorb.spring.extend.ExtendedPropertyPlaceholderConfigurer">
+        <!--允许JVM参数覆盖-->
+        <property name="systemPropertiesModeName" value="SYSTEM_PROPERTIES_MODE_OVERRIDE"/>
+        <!--忽略没有找到的资源文件-->
+        <property name="ignoreResourceNotFound" value="true"/>
+        <!--配置资源文件-->
+        <property name="locations">
+            <list>
+                <value>classpath:mysql-jdbc.properties</value>
+                <value>classpath:redis.properties</value>
+                <value>classpath:httpclient.properties</value>
+                <value>classpath:env.properties</value>
+                <!--<value>classpath:redis-sentinel.properties</value>-->
+            </list>
+        </property>
+    </bean>
+
+    <!-- 开启包扫描 -->
+    <context:component-scan base-package="com.fruit.sorb"/>
+
+    <!-- 配置数据源 -->
+    <bean id="dataSource" class="com.jolbox.bonecp.BoneCPDataSource">
+        <property name="driverClass" value="${mysql.driver}"/>
+        <property name="jdbcUrl" value="${mysql.url}"/>
+        <property name="username" value="${mysql.user}"/>
+        <property name="password" value="${mysql.password}"/>
+        <!--检查数据库连接池中空闲连接的间隔时间，如果要取消则设置为0-->
+        <property name="idleConnectionTestPeriodInMinutes" value="60"/>
+        <!--连接池中未使用的链接最大存活时间，如果要永远存活则设置为0-->
+        <property name="idleMaxAgeInMinutes" value="30"/>
+        <!--每个分区最大的连接数-->
+        <property name="maxConnectionsPerPartition" value="150"/>
+        <!--每个分区最小的连接数-->
+        <property name="minConnectionsPerPartition" value="5"/>
+    </bean>
+</beans>
