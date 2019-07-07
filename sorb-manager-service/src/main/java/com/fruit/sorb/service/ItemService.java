@@ -20,7 +20,7 @@ import java.util.List;
  * @Date: 2019/1/5 22:48
  */
 @Service
-public class ItemService {
+public class ItemService extends BaseService<Item> {
 
     @Autowired
     private ItemMapper itemMapper;
