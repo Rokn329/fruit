@@ -1,6 +1,7 @@
 package com.fruit.sorb.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
  * @ClassName: IndexController
@@ -11,8 +12,12 @@ import org.springframework.stereotype.Controller;
 @Controller
 public class IndexController {
 
-    public void index() {
-
+    /**
+     * 转向首页
+     */
+    @RequestMapping("index")
+    public String index() {
+        return "index";
     }
 
 }
