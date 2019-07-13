@@ -21,7 +21,7 @@ public abstract class BaseService<T> {
      * @param id
      * @return
      */
-    public T queryById(String id) {
+    public T queryById(Long id) {
         return this.sysMapper.selectByPrimaryKey(id);
     }
 
